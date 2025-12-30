@@ -24,7 +24,7 @@ export default function SupportSection() {
                 <span className="text-gradient">support service</span>
               </h2>
               
-              <p className="text-gray-400 text-sm md:text-lg lg:text-xl leading-relaxed max-w-xl mx-auto lg:mx-0">
+              <p className="text-gray-400 text-sm md:text-lg lg:text-xl leading-relaxed max-w-[500px] mx-auto lg:mx-0">
                 We are committed to providing our customers with the best customer support experience. Our team is available 24/7 to answer any queries and resolve any issues.
               </p>
             </div>

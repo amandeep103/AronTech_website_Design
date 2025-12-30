@@ -81,8 +81,8 @@ export function Footer() {
       </div>
 
       {/* Gigantic Background Typography */}
-      <div className="relative w-full mt-12 select-none pointer-events-none overflow-hidden">
-        <h2 className="text-[15vw] font-black tracking-tighter text-center leading-none">
+      <div className="relative w-full mt-8 select-none pointer-events-none overflow-hidden">
+        <h2 className="text-[15vw] font-black tracking-wider text-center leading-none">
           <span className="bg-gradient-to-b from-white/50 via-white/30 to-transparent bg-clip-text text-transparent">
             ARONTECH
           </span>

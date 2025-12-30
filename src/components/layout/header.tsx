@@ -57,7 +57,7 @@ export function Header() {
                             <div key={link.name} className="relative group">
                                 <a
                                     href={link.href}
-                                    className={`text-sm font-medium transition-colors flex items-center gap-1 ${
+                                    className={`text-[18px] font-semibold transition-colors flex items-center gap-1 ${
                                         link.name === 'Home'
                                             ? 'text-primary'
                                             : 'text-white/70 hover:text-primary'
@@ -106,7 +106,7 @@ export function Header() {
                     {/* Enquire Button — NO GLOW */}
                     <Button
                         className="
-                            rounded-full px-5 h-9 text-sm font-medium
+                            rounded-full px-5 h-9 text-[18px] font-medium
                             border border-primary/40
                             bg-transparent text-primary
                             hover:bg-primary hover:text-black

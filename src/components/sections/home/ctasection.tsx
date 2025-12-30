@@ -54,7 +54,7 @@ export default function CTASection() {
             <span className="text-gradient">digital success?</span>
           </h2>
 
-          <p className="text-gray-400 text-lg md:text-xl max-w-2xl mx-auto mb-12">
+          <p className="text-gray-400 text-lg md:text-xl max-w-[400px] mx-auto mb-12">
             Our services solve any business problem. Let's collaborate to build something that stands out.
           </p>
 
