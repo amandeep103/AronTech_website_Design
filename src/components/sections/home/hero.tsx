@@ -29,7 +29,7 @@ export default function Hero() {
   };
 
   return (
-    <div ref={containerRef} className="min-h-[100vh] bg-black overflow-x-hidden" onMouseMove={handleMouseMove}>
+    <div ref={containerRef} className="min-h-screen mt-20 bg-black overflow-x-hidden" onMouseMove={handleMouseMove}>
       <section className="sticky top-0 h-screen flex items-center justify-center overflow-hidden">
         {/* 3D Background Layer */}
         <div className="absolute inset-0 z-10 opacity-60">
@@ -94,7 +94,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="text-4xl sm:text-6xl md:text-8xl lg:text-9xl font-bold tracking-tighter text-white mb-6 md:mb-8 max-w-6xl leading-[1] md:leading-[0.9] perspective-1000"
+            className="text-4xl sm:text-6xl md:text-xl lg:text-9xl font-bold tracking-tighter text-white mb-6 md:mb-8 max-w-6xl leading-none md:leading-[0.9] perspective-1000"
           >
             Digital Marketing <br />
             <span className="text-gradient drop-shadow-[0_0_30px_rgba(250,181,36,0.3)]">Agency</span>
