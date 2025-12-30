@@ -1,0 +1,24 @@
+<svg
+  viewBox="0 0 1200 800"
+  xmlns="http://www.w3.org/2000/svg"
+  preserveAspectRatio="xMidYMid slice"
+>
+  <g
+    fill="none"
+    stroke="#FAB524"
+    stroke-width="1"
+    opacity="0.25"
+  >
+    <!-- Left cube -->
+    <rect x="80" y="260" width="120" height="120" rx="12" />
+
+    <!-- Right cube -->
+    <rect x="980" y="200" width="140" height="140" rx="14" />
+
+    <!-- Bottom-left cube -->
+    <rect x="180" y="560" width="100" height="100" rx="10" />
+
+    <!-- Bottom-right cube -->
+    <rect x="900" y="520" width="120" height="120" rx="12" />
+  </g>
+</svg>

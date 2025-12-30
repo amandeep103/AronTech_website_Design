@@ -1,0 +1,76 @@
+<svg
+  width="100%"
+  height="100%"
+  viewBox="0 0 1200 800"
+  xmlns="http://www.w3.org/2000/svg"
+  preserveAspectRatio="xMidYMid slice"
+>
+  <defs>
+    <!-- Glow for corner indents -->
+    <filter id="cornerGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Large grid pattern -->
+    <pattern
+      id="bigGrid"
+      width="200"
+      height="200"
+      patternUnits="userSpaceOnUse"
+    >
+      <!-- Horizontal -->
+      <line
+        x1="0"
+        y1="0"
+        x2="200"
+        y2="0"
+        stroke="#FAB524"
+        stroke-width="1"
+        opacity="0.08"
+      />
+      <!-- Vertical -->
+      <line
+        x1="0"
+        y1="0"
+        x2="0"
+        y2="200"
+        stroke="#FAB524"
+        stroke-width="1"
+        opacity="0.08"
+      />
+    </pattern>
+  </defs>
+
+  <!-- Grid background -->
+  <rect width="100%" height="100%" fill="url(#bigGrid)" />
+
+  <!-- Bright corner indents -->
+  <g
+    stroke="#FAB524"
+    stroke-width="2"
+    opacity="0.9"
+    filter="url(#cornerGlow)"
+    fill="none"
+  >
+    <!-- Top-left -->
+    <path d="M120 80 h40 M120 80 v40" />
+
+    <!-- Top-right -->
+    <path d="M1080 80 h-40 M1080 80 v40" />
+
+    <!-- Bottom-left -->
+    <path d="M120 720 h40 M120 720 v-40" />
+
+    <!-- Bottom-right -->
+    <path d="M1080 720 h-40 M1080 720 v-40" />
+
+    <!-- Mid accents -->
+    <path d="M600 200 h30 M600 200 v30" />
+    <path d="M400 500 h-30 M400 500 v30" />
+    <path d="M800 560 h30 M800 560 v-30" />
+  </g>
+</svg>

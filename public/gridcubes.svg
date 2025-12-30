@@ -1,0 +1,98 @@
+<svg
+  viewBox="0 0 1200 800"
+  xmlns="http://www.w3.org/2000/svg"
+  preserveAspectRatio="xMidYMid slice"
+>
+
+  <!-- 1️⃣ GRID (cell size = 120px) -->
+  <g
+    stroke="#FAB524"
+    stroke-width="1"
+    opacity="0.06"
+  >
+    <!-- Vertical grid lines -->
+    <line x1="0" y1="0" x2="0" y2="800" />
+    <line x1="120" y1="0" x2="120" y2="800" />
+    <line x1="240" y1="0" x2="240" y2="800" />
+    <line x1="360" y1="0" x2="360" y2="800" />
+    <line x1="480" y1="0" x2="480" y2="800" />
+    <line x1="600" y1="0" x2="600" y2="800" />
+    <line x1="720" y1="0" x2="720" y2="800" />
+    <line x1="840" y1="0" x2="840" y2="800" />
+    <line x1="960" y1="0" x2="960" y2="800" />
+    <line x1="1080" y1="0" x2="1080" y2="800" />
+
+    <!-- Horizontal grid lines -->
+    <line x1="0" y1="0" x2="1200" y2="0" />
+    <line x1="0" y1="120" x2="1200" y2="120" />
+    <line x1="0" y1="240" x2="1200" y2="240" />
+    <line x1="0" y1="360" x2="1200" y2="360" />
+    <line x1="0" y1="480" x2="1200" y2="480" />
+    <line x1="0" y1="600" x2="1200" y2="600" />
+    <line x1="0" y1="720" x2="1200" y2="720" />
+  </g>
+
+  <!-- 2️⃣ SELECTED GRID CELLS (subtle cube frames) -->
+  <g
+    fill="none"
+    stroke="#FAB524"
+    stroke-width="1"
+    opacity="0.12"
+  >
+    <!-- Each cube = exactly 120x120 -->
+    <rect x="120" y="240" width="120" height="120" rx="12" />
+    <rect x="960" y="120" width="120" height="120" rx="12" />
+    <rect x="240" y="600" width="120" height="120" rx="12" />
+    <rect x="840" y="480" width="120" height="120" rx="12" />
+  </g>
+
+  <!-- 3️⃣ CORNER ACCENTS (grid joints) -->
+  <g
+    stroke="#FAB524"
+    stroke-width="2"
+    opacity="0.7"
+  >
+    <!-- Helper: corner length = 24 -->
+
+    <!-- Cube 1 -->
+    <path d="M120 240 h24" />
+    <path d="M120 240 v24" />
+    <path d="M240 240 h-24" />
+    <path d="M240 240 v24" />
+    <path d="M120 360 h24" />
+    <path d="M120 360 v-24" />
+    <path d="M240 360 h-24" />
+    <path d="M240 360 v-24" />
+
+    <!-- Cube 2 -->
+    <path d="M960 120 h24" />
+    <path d="M960 120 v24" />
+    <path d="M1080 120 h-24" />
+    <path d="M1080 120 v24" />
+    <path d="M960 240 h24" />
+    <path d="M960 240 v-24" />
+    <path d="M1080 240 h-24" />
+    <path d="M1080 240 v-24" />
+
+    <!-- Cube 3 -->
+    <path d="M240 600 h24" />
+    <path d="M240 600 v24" />
+    <path d="M360 600 h-24" />
+    <path d="M360 600 v24" />
+    <path d="M240 720 h24" />
+    <path d="M240 720 v-24" />
+    <path d="M360 720 h-24" />
+    <path d="M360 720 v-24" />
+
+    <!-- Cube 4 -->
+    <path d="M840 480 h24" />
+    <path d="M840 480 v24" />
+    <path d="M960 480 h-24" />
+    <path d="M960 480 v24" />
+    <path d="M840 600 h24" />
+    <path d="M840 600 v-24" />
+    <path d="M960 600 h-24" />
+    <path d="M960 600 v-24" />
+  </g>
+
+</svg>
